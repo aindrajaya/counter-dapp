@@ -7,7 +7,7 @@ import { getDeployed } from './contracts/Counter';
 
 
 class App extends Component {
-  state = {counter: null}
+  state = {counter: 0}
 
   //will get the state from the deployed Counter contracts
   async componentDidMount(){

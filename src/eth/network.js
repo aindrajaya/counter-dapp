@@ -10,15 +10,19 @@ export function getWeb3(){
   return web3;
 }
 
+//added function
+
+
 //function to retrieving the user's current default account, usually using the 0 index account
 export async function getAccount(){
-  const web3 = getWeb3();
-  const accounts  = await web3.eth.getAccounts();
-  return accounts[0]
+  //this method will not work for browsers that run in privacy mode
+  /**
+   * const web3 = getWeb3();
+   * const accounts  = await web3.eth.getAccounts();
+   * return accounts[0]
+   */
 
   //for handling the privacy mode browser
-  /**
-   * const accounts1 = await window.ethereum.enable();
-   * return accounts1[0];
-   */
+  const accounts = await window.ethereum.enable();
+  return accounts[0];  
 }
