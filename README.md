@@ -53,7 +53,7 @@
 ## About the Counter dApps (Decentralized Applications)
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-So this project is my result of my [Project-based learning)[https://www.pblworks.org/what-is-pbl] to explore more deep about Decentralize application that build on [Ethereum](https://ethereum.org/en/) networks, and to know on how the simple example Ethereum blockchain integration on the  website application.
+So this project is my result of my [Project-based learning](https://www.pblworks.org/what-is-pbl) to explore more deep about Decentralize application that build on [Ethereum](https://ethereum.org/en/) networks, and to know on how the simple example Ethereum blockchain integration on the  website application.
 
 Here's why and my purpose for this Learning Repository:
 * Counter app is most simple case study to learn on how the website application works
