@@ -27,3 +27,4 @@ package-lock.json
 commit-configuration.txt
 
 .env
+notes.md
